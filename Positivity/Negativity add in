@@ -1,0 +1,4 @@
+if ( (0<(cor.test(DatosC$SP500RS2,DatosC$BimboRS)))) {
+  print("Positive correlation") } else if ( (0>(cor.test(DatosC$SP500RS2,DatosC$BimboRS)))) {
+    print("Negative correlation") } else if ( (0==(cor.test(DatosC$SP500RS2,DatosC$BimboRS)))) {
+      print("No correlation") }

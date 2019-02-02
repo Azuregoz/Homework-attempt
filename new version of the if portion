@@ -1,9 +1,0 @@
-if ( (1>abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))) & (abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))>0.8)) {
-  print("Very strong correlation") } else if ( (0.60<abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))) & (abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))<0.79)) {
-  print("Strong correlation") } else if ((0.40<(abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS))) & (abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))<0.59)))) {
-  print("Moderate correlation") } else if ( (0.20<abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))) & (abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))<0.39)) {
-  print("Weak correlation") } else if ( (0<abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))) & (abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))<0.19)) {
-  print("Very weak correlation") } else if ( 1==abs((cor.test(DatosC$SP500RS2,DatosC$BimboRS)))) {
-  print("Perfect correlation") } else if ( 0==(cor.test(DatosC$SP500RS2,DatosC$BimboRS))) {
-  print("No correlation") }
-  
